@@ -1,3 +1,4 @@
+# Backport Guidelines
 In GlusterFS project, as a policy, any new change, bug fix, etc., are to be
 fixed in 'master' branch before release branches. When a bug is fixed in
 the master branch, it might be desirable or necessary in release branch.
@@ -27,7 +28,6 @@ fix backported, because your current setup is facing issues, below are the
 steps you need to take care to submit a patch on release branch.
 
 * The patch should have same 'Change-Id'.
-* The bugzilla ID should be for the same release branch.
 
 
 ### How to contact release owners?

@@ -20,7 +20,7 @@ program.
     you will be able to see the defects raised by Coverity.
 -   [BZ 789278](https://bugzilla.redhat.com/show_bug.cgi?id=789278)
     can be used as a umbrella bug for Coverity issues in master
-    branch unless you are trying to fix a specific bug in Bugzilla.
+    branch unless you are trying to fix a specific issue.
 -   When you decide to work on some issue, please assign it to your name
     in the same Coverity website. So that we don't step on each others
     work.
@@ -38,15 +38,15 @@ Cppcheck is available in Fedora and EL's EPEL repo
 
 -   Install Cppcheck
 
-        dnf install cppcheck
+        # dnf install cppcheck
 
 -   Clone GlusterFS code
 
-        git clone https://github.com/gluster/glusterfs
+        # git clone https://github.com/gluster/glusterfs
 
 -   Run Cpp check
 
-        cppcheck glusterfs/ 2>cppcheck.log
+        # cppcheck glusterfs/ 2>cppcheck.log
 
 
 ### Daily Runs
